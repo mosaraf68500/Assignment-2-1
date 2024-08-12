@@ -73,6 +73,86 @@
     }
 
     /* change your habit section end */
+
+    /* run extra section start */
+
+    .run-extra-container{
+    
+        /* display: grid; */
+        grid-template-columns: repeat(1,1fr);
+        
+        /* border: 2px solid red; */
+        
+        
+     }
+     .run-extra-title{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+     }
+
+     .run-extra-discription{
+        font-size: 12px;
+     }
+
+     .run-extra-left{
+        width: 100%;
+     }
+     .run-extra-right{
+        width: 100%;
+    }
+     
+ 
+     
+    /* run extra section end */
+
+    /* BMI calculator section start */
+    .bmi-title-discription{
+        width: 100%;
+    }
+    .bmi-content{
+       flex-direction: column;
+    }
+    .bmi-left{
+        width: 100%;
+    }
+
+    .bmi-right{
+        width: 100%;
+    }
+
+    .bmi-discription{
+        padding: 1rem;
+    }
+    /* BMI calculator section end */
+
+    /* team section start */
+    .image-gallary{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .team-section{
+        width: 100%;
+    }
+
+      /* team section end */
+
+      /* ways to keep fitness start */
+      .fitness-content{
+        grid-template-columns: repeat(1,1fr);
+      }
+
+      .fitness-title{
+        width: 100%;
+      }
+
+      /* ways to keep fitness end */
+
+      /* footer section start */
+      .footer-info{
+        grid-template-columns:repeat(1, 1fr);
+      }
+
+      /* footer section end */
  
 }
 
