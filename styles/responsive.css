@@ -51,14 +51,14 @@
     .workout{
        
         left: 47%;
-        top: 105%;
+        top: 75%;
     
     
     }
   
     .tutorial{
         left: 2%;
-        top: 135%;
+        top: 100%;
         width: 110px;
         height: 60px;
     
@@ -241,8 +241,17 @@
         gap: 1rem;
        
     }
+    .footer-info-right,
+    .footer-info-middle,
+    .footer-into-left{
+        margin-top: 0rem;
+    }
 
       /* footer section end */
+
+      .all-right{
+        font-size: 14px;
+      }
  
 }
 
